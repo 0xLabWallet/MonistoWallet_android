@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="App_Name">Monisto</string>
+    <string name="AddEvmSyncSource_RpcSource"></string>
+    <string name="BtcBlockchainSettings_RestoreSource"></string>
+    <string name="BtcBlockchainSettings_RestoreSourceDescription"></string>
+    <string name="CoinSettings_BitcoinCashCoinType_Type145_Title"></string>
+    <string name="EvmNetwork_SyncModeDescription"></string>
+    <string name="SettingsSecurity_SyncModeAPIDescription"></string>
+    <string name="Watch_Address_Description"></string>
+    <string name="Watch_By"></string>
+    <string name="Watch_Error_InvalidXPubKey"></string>
+    <string name="Watch_TypeEvmAddress"></string>
+    <string name="Watch_TypeSolanaAddress"></string>
+    <string name="Watch_TypeTronAddress"></string>
+    <string name="Watch_TypeXPubKey"></string>
+    <string name="Watch_WatchBy"></string>
+    <string name="Watch_XPubKey_Hint"></string>
+</resources>

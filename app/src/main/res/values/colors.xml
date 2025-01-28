@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="grey_dialog_color">#141519</color>
+    <color name="referral_items">#1E1F23</color>
+    <color name="text_gray_color">#88898B</color>
+    <color name="edit_text_color">#2A2C35</color>
+    <color name="gray_button_color">#1E1F23</color>
+    <color name="referral_gray_button_color">#28292E</color>
+    <color name="referral_gray_icon_color">#676666</color>
+    <color name="main_app_blue">#0257FF</color>
+    <color name="white_25">#41FFFFFF</color>
+    <color name="main_app_blue_25">#4000FFF0</color>
+    <color name="alert_color_red">#E6FF4820</color>
+    <color name="alert_color_red_30">#4DFF4820</color>
+    <color name="transactaction_bg_color">#252934</color>
+    <color name="green_topup">#65BE5D</color>
+</resources>

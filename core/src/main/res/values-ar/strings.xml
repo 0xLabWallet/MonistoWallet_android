@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Timestamp_Today">اليوم</string>
+    <string name="Timestamp_Yesterday">أمس</string>
+    <string name="Duration_instant">فوري</string>
+    <string name="Duration_Within">خلال %s</string>
+    <string name="Duration_Hours">%d ساعة</string>
+    <string name="Duration_Minutes">%d د.</string>
+    <string name="Duration_Seconds">%d ثواني</string>
+</resources>

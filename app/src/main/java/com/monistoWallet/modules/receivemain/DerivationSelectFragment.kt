@@ -1,0 +1,40 @@
+package com.monistoWallet.modules.receivemain
+
+import android.os.Bundle
+import androidx.compose.runtime.Composable
+import androidx.compose.ui.platform.LocalView
+import androidx.compose.ui.res.stringResource
+import androidx.core.os.bundleOf
+import androidx.lifecycle.viewmodel.compose.viewModel
+import androidx.navigation.NavController
+import com.monistoWallet.R
+import com.monistoWallet.core.BaseComposeFragment
+import com.monistoWallet.core.helpers.HudHelper
+
+class DerivationSelectFragment : BaseComposeFragment() {
+
+    @Composable
+    override fun GetContent(navController: NavController) {
+        val coinUid = arguments?.getString("coinUid")
+
+        if (coinUid == null) {
+            HudHelper.showErrorMessage(LocalView.current, R.string.Error_ParameterNotSet)
+            navController.popBackStack()
+        } else {
+            val viewModel = viewModel<DerivationSelectViewModel>(
+                factory = DerivationSelectViewModel.Factory(coinUid)
+            )
+            AddressFormatSelectScreen(
+                navController,
+                viewModel.items,
+                stringResource(R.string.Balance_Receive_AddressFormat_RecommendedDerivation),
+            )
+        }
+    }
+
+    companion object {
+        fun prepareParams(coinUid: String): Bundle {
+            return bundleOf("coinUid" to coinUid)
+        }
+    }
+}
