@@ -18,9 +18,12 @@ output.json
 # IntelliJ
 *.iml
 .idea/
+.gradle
 misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+.DS_Store
+/**/build/*
+/captures
+/local.properties
 
 # Keystore files
 *.jks
